@@ -1,0 +1,14 @@
+{
+  "name": "neuropomoika",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pieceofwater",
+  "license": "ISC",
+  "dependencies": {
+    "telegraf": "^3.38.0"
+  }
+}

@@ -29,21 +29,16 @@ function takeMsg(ctx) {
 }
 
 function generate(ctx) {
-    let words = randomInteger(1, 8);
-    if (words >= messages.length) {
-        words = messages.length;
-    }
-
+    let words = randomInteger(1, 15);
     let phraseArr = [];
-
+    let count = 0;
 
     for(let msg of messages) {
-        let count = 0;
 
         let skipChance = randomInteger(1, 10);
         if(skipChance <= 7) continue;
 
-        phraseArr.push(msg)
+        phraseArr.push(msg);
 
         count++;
         if(count >= words) {

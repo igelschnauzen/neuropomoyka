@@ -29,7 +29,7 @@ function takeMsg(ctx) {
 }
 
 function generate(ctx) {
-    let words = randomInteger(1, 15);
+    let words = randomInteger(1, 10);
     let phraseArr = [];
     let count = 0;
 

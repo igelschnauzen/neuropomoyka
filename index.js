@@ -37,6 +37,11 @@ function takeMsg(ctx) {
 }
 
 function generate(ctx) {
+    if(messages.length <= 6) {
+        ctx.reply('Недостаточно данных для генерации фразы.');
+        return;
+    }
+
     shuffle(messages);
 
     let words = randomInteger(1, 10);

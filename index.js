@@ -66,10 +66,6 @@ function generate(ctx) {
     return phrase;
 }
 
-function dbg(ctx) {
-    ctx.reply(messages);
-}
-
 bot.start((ctx) => {
     ctx.reply('started');
 });

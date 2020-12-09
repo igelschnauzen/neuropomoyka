@@ -71,7 +71,6 @@ bot.start((ctx) => {
 });
 
 bot.command('gen', generate);
-bot.command('dbg', dbg);
 
 bot.on('text', takeMsg);
 
